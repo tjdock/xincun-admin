@@ -1,0 +1,24 @@
+$error: #f5222d;
+$success: #52c41a;
+$primary: #1890ff;
+$warning: #faad14;
+$gap: 10px;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.white-bg {
+  background-color: #fff;
+  padding: $gap;
+}

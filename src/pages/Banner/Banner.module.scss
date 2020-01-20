@@ -1,0 +1,26 @@
+@import '../../index.scss';
+$width: 375px;
+$height: 210px;
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: $width;
+  overflow: hidden;
+  margin: $gap;
+  .image {
+    width: $width;
+    height: $height;
+    object-fit: cover;
+  }
+  .upload {
+    width: $width;
+    height: $height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

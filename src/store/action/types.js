@@ -1,0 +1,13 @@
+//main
+export const START_LOADING = 'MAIN/START_LOADING';
+export const STOP_LOADING = 'MAIN/STOP_LOADING';
+export const SHOW_SNACKBAR = 'MAIN/SHOW_SNACKBAR';
+export const SET_REDIRECT_PATH = 'MAIN/SET_REDIRECT_PATH';
+
+//news
+export const GET_NEWS = 'NEWS/GET_NEWS';
+export const GET_NEWS_SUCCESS = 'NEWS/GET_NEWS_SUCCESS';
+
+//banner
+export const GET_BANNER = 'BANNER/GET_BANNER';
+export const GET_BANNER_SUCCESS = 'BANNER/GET_BANNER_SUCCESS';

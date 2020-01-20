@@ -1,0 +1,12 @@
+body {
+  background: #f0f2f5 url('../../assets/bg.svg') no-repeat 50% 50% fixed;
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+
+  .Icon {
+    color: rgba(0, 0, 0, 0.25);
+  }
+}
